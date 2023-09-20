@@ -1,0 +1,58 @@
+@page {
+	size: 2.25in 2.0in;
+	margin: 0 0 0 0;
+}
+.label {
+	width: 2.25in;
+	max-width: 2.25in;
+	height: 2.0in;
+	max-height: 2.0in;
+}
+.barcode {
+	text-align: center;
+	margin-top: 1em;
+}
+.sample_id {
+	margin-top: 0.1in;
+	white-space: nowrap;
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+}
+.bottom {
+	margin-top: 1em;
+	font-weight: bold;
+}
+.batch_id {
+	float: left;
+	font-size:1.5em;
+	margin-left: 0;
+	margin-top: 0.6em;
+}
+.type_vc {
+	float: right;
+	font-size: 1.0em;
+	margin-right: 0;
+	margin-top: 0em;
+}
+.test_name {
+	font-size: 11px;
+}
+.matrix {
+	font-size: 11px;
+}
+.type {
+	font-size: 28px;
+	font-weight: bold;
+}
+.vc {
+	font-size: 28px;
+	font-weight: bold;
+}
+.batch_id {
+	margin-top: 0.1in;
+	font-size: 11px;
+}
+.ms, .msd, .dup {
+	border: 2px solid;
+}

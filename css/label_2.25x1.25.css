@@ -1,0 +1,69 @@
+@page {
+	size: 2.25in 1.25in;
+	margin: 0 0 0 0;
+}
+.label {
+	width: 2.25in;
+	max-width: 2.25in;
+	height: 1.25in;
+	max-height: 1.25in;
+}
+.barcode {
+	text-align: center;
+	margin-top: 0em;
+	margin-left: -1.75em;
+}
+.sample_id {
+	margin-top: 0in;
+	white-space: nowrap;
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+}
+.top {
+	white-space: nowrap;
+}
+.bottom {
+	margin-top: -0.1in;
+	font-weight: bold;
+}
+.batch_id {
+	float: left;
+	font-size: 1.5em;
+	margin-left: 0;
+	margin-top: 0.6em;
+}
+.type_vc {
+	float: right;
+	font-size: 1.0em;
+	margin-right: 0;
+	margin-top: 0em;
+}
+.test_name {
+	font-size: 10px;
+}
+.matrix {
+	display: inline-block;
+	width: 110px;
+	white-space: nowrap;
+//	border: dotted 1px black;
+	font-size: 10px;
+}
+.type {
+	font-size: 28px;
+	font-weight: bold;
+}
+.vc {
+	font-size: 28px;
+	font-weight: bold;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+.batch_id {
+	margin-top: 0.1in;
+	font-size: 11px;
+}
+.ms, .msd, .dup {
+	border: 2px solid;
+}

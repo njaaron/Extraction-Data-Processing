@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src='form.js'></script>
+	<script>
+	var data = 'showtitlesummary:both\n\
+searchby:Exact Phrase\n\
+resultmax:5000\n\
+pagesize:50\n\
+proximity_search:\n\
+proximity_threshold:3\n\
+wordfield:60 minutes\n\
+cataloged_uncataloged:both\n\
+available_unavailable:both\n\
+medium:television\n\
+medium:radio\n\
+medium:television advertising\n\
+medium:radio advertising\n\
+medium:all\n\
+searchfield:title';
+	var url = 'http://192.168.17.6/search/result.asp';
+	</script>
+</head>
+<body>
+	<button onclick='InstantForm.create(data, url, "POST", "_blank").submit()'>TEST</button>
+</body>
+</html>

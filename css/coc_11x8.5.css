@@ -1,0 +1,10 @@
+@page {
+	size: 11in 8.5in;
+	margin: 0 0 0 0;
+}
+.label {
+	width: 11in;
+	max-width: 11in;
+	height: 8.5in;
+	max-height: 8.5in;
+}

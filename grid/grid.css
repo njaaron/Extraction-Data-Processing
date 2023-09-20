@@ -1,0 +1,82 @@
+table.ariaGrid * {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+table.ariaGrid{
+	font-family: "Arial";
+	border: 1px solid #aaaaaa;
+	border-left: none;
+	padding: 0px;
+	border-spacing: 0px;
+//	white-space: nowrap;
+	table-layout: fixed;
+	max-width: 100%;
+//	width: 800px;
+}
+table.ariaGrid tr{
+	height: 24px;
+	vertical-align: top;
+}
+table.ariaGrid td{
+	border: none;
+	border-left: 1px solid #aaaaaa;
+	padding: 0px;
+	padding: 2px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+table.ariaGrid td:focus{
+	outline: 2px dotted #cc0000;
+}
+table.ariaGrid td input[type=text]{
+	padding: 2px;
+	margin: 0px;
+	width: 100%;
+	height: 18px;
+}
+table.ariaGrid td input[type=checkbox]{
+	padding: 2px;
+	margin: 0px;
+	width: 100%;
+	height: 18px;
+}
+table.ariaGrid td select{
+	padding: 2px;
+	margin: 0px;
+	width: 100%;
+}
+table.ariaGrid td input:focus, table.ariaGrid td select:focus{
+	outline: 2px dotted #cc0000;
+}
+table.ariaGrid td.table-td-selected{
+	background-color: #ffcccc;
+}
+table.ariaGrid th{
+	text-align: center;
+	border: none;
+	border-left: 1px solid #aaaaaa;
+	border-bottom: 2px solid #aaaaaa;
+	background-color: #eeeeee;
+	padding: 2px;
+//	width: 100px;
+//	height: 24px;
+	background-image: url(../img/verlauf.png);
+	cursor: pointer;
+}
+table.ariaGrid th:focus{
+	outline: 2px dotted #cc0000;
+}
+table.ariaGrid th:hover{
+	background-color: #ffffff;
+}
+table.ariaGrid th.table-td-selected{
+	background-color: #ffffff;
+}
+table.ariaGrid tr.table-tr-odd{
+	background-color: #efefef;
+}
+table.ariaGrid tr.focus{
+	outline: 2px solid #cc00cc;
+	font-weight: bold;
+}
